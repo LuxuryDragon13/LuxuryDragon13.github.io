@@ -8,6 +8,7 @@
   --darkblue: #0C0244;
   --opacityblue: #0000FFCC;
   --opacity: #00FF0000;
+  --a: #01FCC3;
 }
 
 * {
@@ -349,7 +350,7 @@
     transform: translate(0%, -100%);
     transition: all 1s ease-in-out;
     z-index: -1;
-    border-bottom: 5px solid var(--orange)
+    border-bottom: 5px solid var(--a)
   }
 
   .nav ol {
